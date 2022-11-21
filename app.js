@@ -1,8 +1,11 @@
 import express from 'express'
+import cors from 'cors'
 import {getProvidersList, prepareProvidersInfo} from './finder.js'
 
 
 const app = express()
+app.use(cors())
+
 const port = 3000
 
 app.get('/providers/:ipfsCid', async (req, res) => {

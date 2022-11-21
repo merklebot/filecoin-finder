@@ -14,6 +14,7 @@
     "@filecoin-shipyard/lotus-client-provider-nodejs": "^1.1.1",
     "@filecoin-shipyard/lotus-client-rpc": "^1.2.0",
     "@filecoin-shipyard/lotus-client-schema": "^4.2.0",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "lowdb": "^5.0.5"
   }
