@@ -4,7 +4,9 @@ import {getProvidersList, prepareProvidersInfo} from './finder.js'
 
 
 const app = express()
-app.use(cors())
+app.use(cors({
+    origin: '*'
+}))
 
 const port = 3000
 
